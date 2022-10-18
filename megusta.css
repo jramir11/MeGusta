@@ -1,0 +1,34 @@
+* {
+    padding: 0px;
+    margin: 0px auto;
+    /*border: 1px solid red;*/
+    /*display: flex;*/
+    font-family: cursive;
+}
+.cuadro {
+    width: 350px;
+    margin-top: 30px;
+    padding: 40px 15px 20px 10px;
+    border: 4px solid black;
+}
+.btnLike {
+    margin: 0px;
+    display: flex;
+    background-color: yellow;
+    color: black;
+    /*font-family: roboto;*/
+    box-shadow: 5px 5px black;
+    width: 80px;
+}
+.cuadro2 {
+    display: flex;
+    /*align-content:;*/
+    margin-bottom: 10px;
+    
+}
+.textoRestante {
+    
+}
+#plikes {
+    display: flex;
+}

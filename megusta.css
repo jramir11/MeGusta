@@ -2,33 +2,96 @@
     padding: 0px;
     margin: 0px auto;
     /*border: 1px solid red;*/
-    /*display: flex;*/
     font-family: cursive;
 }
-.cuadro {
-    width: 350px;
-    margin-top: 30px;
-    padding: 40px 15px 20px 10px;
-    border: 4px solid black;
-}
-.btnLike {
+.btnDer1, .btnDer2, .btnDer3 {
     margin: 0px;
-    display: flex;
+    /*display: flex;*/
     background-color: yellow;
     color: black;
     /*font-family: roboto;*/
     box-shadow: 5px 5px black;
     width: 80px;
 }
-.cuadro2 {
+.Der123 {
     display: flex;
     /*align-content:;*/
     margin-bottom: 10px;
+    padding: 5px 0px 15px 0px;
     
 }
-.textoRestante {
-    
-}
-#plikes {
+
+#plikesDer1, #plikesDer2, #plikesDer3 {
     display: flex;
+}
+
+
+
+
+
+
+/*Encabezado*/
+.encabezado {
+    background-color:black;
+    margin: 5px;
+    /*border-radius: solid 2px;*/
+    height: 50px;
+    /*display: flex;
+    justify-content: space-around;
+    font-family: 'Roboto';
+    align-items: center;
+    color: white;*/
+    width: 585px;
+    margin-left: 200px;
+}
+.encab-title {
+    /*margin: 10px 10px 10px 10ox;*/
+    font-size: 30px;
+    /*justify-content: space-around;*/
+    color: white;
+    margin-left: 10px;
+}
+.texto_2dario {
+    margin-left:380px;
+}
+.Der1, .Der2, .Der3 {
+    border: 3px solid black; 
+    padding: 0px 0px 20px 15px; 
+    margin-bottom: 5px;
+}
+
+
+.cuadros {
+    /*display: flex;*/
+    display: inline-flex;
+    margin-left: 200px;
+}
+/*cuadrode la derecha*/
+.Der {
+    width: 420px;
+    padding: 10px 15px 20px 10px;
+    /*border: 1px solid red;*/
+        
+}
+
+
+/*cuadro de la izquierda*/
+.Izq1 {
+    border: 3px solid black;
+    width: 130px;
+    padding: 10px;
+    margin-top: 10px;
+    height: 200px;
+}
+.Izq11 {
+    padding: 20px 0px 0px 0px;
+}
+strong { 
+    font-weight: bold;
+}
+img {
+    width: 70px;
+    height: 70px;
+    margin-left: 30px;
+    margin-bottom: 25px;
 }
